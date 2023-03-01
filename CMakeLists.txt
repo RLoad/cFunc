@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 2.8.3)
 
-project(cFunc))
+project(cFunc)
 
 # Add support for c++11
 add_definitions(-std=c++11 -O3)
