@@ -25,8 +25,12 @@ catkin_package(
 include_directories(${EIGEN3_INCLUDE_DIR})
 include_directories(include ${catkin_INCLUDE_DIRS})
 
+# ---- add all func here
 FILE(GLOB SRCS src/robot_control/keyboard.cpp)
 FILE(GLOB INCS include/robot_control/keyboard.h)
+
+#FILE(GLOB SRCS src/bifurcation_sample/transformations.cpp)
+#FILE(GLOB INCS include/bifurcation_sample/transformations.h)
 
 
 add_library(${PROJECT_NAME} ${SRCS} ${INCS})
