@@ -14,7 +14,7 @@
 #include <stdio.h>
 #include <termios.h>
 
-#include "Eigen/Eigen"
+#include <eigen3/Eigen/Eigen>
 
 // namespace keyboard {
 class Keyboard {
